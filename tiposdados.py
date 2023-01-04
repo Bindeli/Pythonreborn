@@ -98,3 +98,18 @@ Só pode concatenar o mesmo tipo
 
 variavel_int = int('2') # transformei a string em um inteiro
 print(f'Variavel {variavel_int} que antes era string se tornou do tipo : {type(variavel_int)}')
+
+"""
+int()  converte para inteiro
+ 
+float() converte para float
+
+str() converte para string
+
+"""
+
+print('Um bool vazio é considerado false. EX : bool(""), resultado :', bool(''))
+print('Se tiver um espaço em branco ou algo, será true: bool(" "), resultado: ', bool(" "))
+
+
+
