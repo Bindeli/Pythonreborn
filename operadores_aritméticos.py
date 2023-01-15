@@ -80,8 +80,27 @@ conta_2 = 1 + 1 ** 5 + 5        # resultado 7
 print(f'Conta 1 : {conta_1} / e Conta 2: {conta_2}')
 
 
+#____________________________________________________________________________________________________________
 
+"""
+Exercicio 
 
+nome - idade - altura - peso - imc
+
+Qual colocar o nome, idade, altura, peso, e utilizar os dados fornecidos para calcular o imc 
+
+IMC = peso / (altura)² 
+
+"""
+nome_E = 'Lucas'
+idade_E = 25
+peso_E = 94
+altura_E = 1.7
+imc = peso_E / (altura_E ** 2)
+
+print(f'{nome_E} possui {idade_E} anos, e possui o IMC de {imc}')
+#____________________________________________________________________________________________________________
 
 
 print('\nFim')
+#____________________________________________________________________________________________________________
