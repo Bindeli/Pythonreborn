@@ -128,6 +128,3 @@ indices = range(len(lista_ex))
 
 for indice in indices:
     print(f'{indice} : {lista_ex[indice]}')
-
-
-

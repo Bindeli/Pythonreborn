@@ -23,3 +23,26 @@ Quando eu não quero utilizar o resto da variável, eu utilizo um *_ parece , un
 _ , nome2, *_ = ['Maria','Helena','resto','resto'] # para pegar o segundo.
 
 # _, _, nome3 = [a lista] pegar semente o terceiro
+
+lista_e = ['Maria', 'Joao', 1 , 2, 3, 4,]
+
+pri, seg, *_, ant_pen, ult = lista_e
+
+
+#____________________________________________________________________________________________________
+
+# Chamada de funções
+
+string_d = 'ABCD'
+
+lista_d = ['Lucas','Nil','André','Lemão']
+
+tupla_d = 'Python','é','uma','linguagem','de','programação'
+
+print('\n\nMaria', 'Joao', 1 , 2, 3, 4,)
+
+print(*lista_e)
+print(*string_d)
+print(*tupla_d, sep='-')
+
+
